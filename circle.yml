@@ -5,3 +5,4 @@ test:
   pre:
     - cp new.json node_modules/eslint-config-standard/eslintrc.json
     - cat node_modules/eslint-config-standard/eslintrc.json
+    - npm run test-quick
